@@ -1,0 +1,185 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Início</a>
+            </li>
+            <li>
+              <a href="produtos.html">Produtos</a>
+            </li>
+            <li>
+              <a href="clientes.html">Clientes<br></a>
+            </li>
+            <li>
+              <a href="contato.html">Contato<br></a>
+            </li>
+            <li>
+              <a href="cadastrese.html">webmail<br></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Contrate nossos planos pelo formulário abaixo.</h1>
+            <p class="text-center"></p>
+            <h3 class="text-center">Entraremos em contato.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="formulario">
+                      <!--?php if($comentarios=="enviado"): ?>
+					<h1>Mensagem Enviada com Sucesso</h1>
+					<?php else: ?-->
+                      <font face="Arial" color="#FFFFFF"></font>
+                      <form name="form" method="post" action="contrate.php">
+                        <label>Nome:</label>
+                        <br>
+                        <input type="text" name="F_Nome" size="40" maxlenght="40">
+                        <br>
+                        <br>
+                        <label>Telefone:</label>
+                        <br>
+                        <input type="text" name="F_Telefone" size="40" maxlenght="40">
+                        <br>
+                        <br>
+                        <label>Email:</label>
+                        <br>
+                        <input type="text" name="F_Email" size="40" maxlenght="40">
+                        <br>
+                        <br>
+                        <!--label>Serviços.</label><br>
+							<input type="checkbox" name="F_Novo" value="Novo Site"/><label>Novo Site</label>
+							<input type="checkbox" name="F_Hospedagem" value="Hospedagem"/><label>Hospedagem</label>
+							<input type="checkbox" name="F_Manutenção" value="Manutenção"/><label>Manutenção</label><br><br-->
+                        <label>QUAL O SERVIÇO QUE GOSTARIA DE CONTRATAR?</label>
+                        <br>
+                        <input type="checkbox" name="F_Servicos" value="Hospedagem">
+                        <label>Hospedagem</label>
+                        <br>
+                        <input type="radio" name="F_Veiculo" value="Prata">
+                        <label>PLano Prata</label>
+                        <input type="radio" name="F_Veiculo" value="Bronze">
+                        <label>PLano Bronze</label>
+                        <input type="radio" name="F_Veiculo" value="Ouro">
+                        <label>PLano Ouro</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="F_Servicos" value="Manutencao">
+                        <label>Phillinks Manutenção</label>
+                        <br>
+                        <input type="checkbox" name="F_Servicos" value="e-comerce">
+                        <label>e-comerce</label>
+                        <br>
+                        <input type="checkbox" name="F_Servicos" value="construcaodesite">
+                        <label>Construção de Site</label>
+                        <br>
+                        <input type="checkbox" name="F_Segundaviadefatura" value="segundaviadefatura">
+                        <label>Phillinks Empresa</label>
+                        <br>
+                        <br>
+                        <label>Comentários:</label>
+                        <br>
+                        <textarea name="F_Comentarios" cols="42" rows="10"></textarea>
+                        <br>
+                        <br>
+                        <input class="btn btn-success" type="submit" value="Enviar">
+                      </form>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="lampada">
+                      <img src="img/imgcontato.png">
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="section">
+      <div class="background-image" style="background-image : url('https://unsplash.imgix.net/photo-1422222948315-28aadb7a2cb8?w=1024&amp;q=50&amp;fm=jpg&amp;s=cfeadbd7a991e58b553bee29a7eeca55')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="img/Logo Phillinks pequena.fw.png" style="opacity: 0.5;">
+            <p class="lead">Liga você com as pessoas!</p>
+          </div>
+          <div class="col-md-7">
+            <p>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; Entre em contato conosco através da nossa página de contato.
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;&nbsp;
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <a href="contato.html">Contato</a>
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="produtos.html">Produtos</a>
+                  <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="clientes.html">Clientes</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+</body></html>
